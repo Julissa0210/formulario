@@ -1,0 +1,52 @@
+.encabezado {
+    background: #01038fd3;
+    height: 100px;
+    text-align: center;
+    color: rgb(255, 98, 25);
+    border: 5px solid rgb(255, 98, 25);
+    box-sizing: border-box;
+}
+.logo_uni {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+  text-align: center;
+}
+
+form {
+    padding: 60px;
+    max-width: 400px;
+    background-color: #0215bda2;
+    margin: 0 auto;
+  }
+  
+  form input {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #181a1b; 
+    font-size: 1em;
+    resize: none; 
+  }
+
+  .boton-enviar {
+    background-color: rgb(255, 98, 25);
+    color:#03057e ;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 60%;
+    text-align: center;
+    border: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UICSLP CAMPUS TAMUÍN</title>
+    <link href="styles/estilos.css" rel="stylesheet">
+</head>
+<header class="encabezado">
+        <h1>FICHA DE PREINSCRIPCIÓN</h1>
+    </header>
+<body class="cuerpo">
+    <img class="logo_uni" src="REC/logo2.jpeg" alt="logotipo">
+    <p class="texto">Rellena todos los campos que se te piden para obtener tu ficha de preinscripción.</p>
+    <main id="contenido">
+        <form class="forma-ficha">
+            <div class="campo">
+                <label class="campo__eti" for="nombre">Nombre del candidato: </label>
+                <input class="campo_text" type="text" placeholder="Nombre completo" id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="curp">CURP: </label>
+                <input class="campo_text" type="text" placeholder="CURP" id="curp">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="correo">Correo electronico: </label>
+                <input class="campo_text" type="email" placeholder="Correo electronico" id="correo">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="telefono">Telefono: </label>
+                <input class="campo_text" type="tel" placeholder="Telefono de contacto" id="telefono">
+            </div>
+            <div class="campo">
+                <label class="campo-eti" for="esc_proced">Escuela de procedencia: </label>
+                <select class="campo__select" id="escuelas">
+                </select>
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="promedio">Promedio anterior: </label>
+                <input class="campo_num" type="number" placeholder="Promedio" id="promedio">
+            </div>
+            <div class="campo">
+                <label class="campo__eti" for="carrera">Selecciona carrera: </label>
+                <select class="campo__select" id="carreras">
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Generar Ficha" class="boton-enviar">
+            </div>
+           
+        </form>
+
+        
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
